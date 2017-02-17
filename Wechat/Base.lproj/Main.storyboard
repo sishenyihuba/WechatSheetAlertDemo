@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VpH-lQ-D9l">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我-->
+        <scene sceneID="q3e-Yw-RDs">
+            <objects>
+                <navigationController id="Izc-3q-dGd" customClass="WechatNavigationController" customModule="Wechat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我" image="tabbar_me" selectedImage="tabbar_meHL" id="52V-wc-4CH"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rtA-qz-AKh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cq8-ct-UXC" kind="relationship" relationship="rootViewController" id="RhR-5z-pEE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i9S-YG-RJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="1988"/>
+        </scene>
+        <!--Wechat Tab Bar Controller-->
+        <scene sceneID="WCn-1L-hLg">
+            <objects>
+                <tabBarController id="VpH-lQ-D9l" customClass="WechatTabBarController" customModule="Wechat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="JZd-j6-EtJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3jM-2f-e3e" kind="relationship" relationship="viewControllers" id="ASt-Hl-3Vc"/>
+                        <segue destination="D8b-tO-A1A" kind="relationship" relationship="viewControllers" id="W1E-MF-3RZ"/>
+                        <segue destination="LaD-ah-JHm" kind="relationship" relationship="viewControllers" id="5Nq-bL-6FQ"/>
+                        <segue destination="Izc-3q-dGd" kind="relationship" relationship="viewControllers" id="Uhh-54-NOZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wea-Te-FdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-183" y="634"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="pVu-Um-mdc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="3jM-2f-e3e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="MNr-ng-Afb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7f0-8L-The" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="-116"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="Lps-YB-Npb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Contacts" id="D8b-tO-A1A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="s3Z-cN-yCo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9D-ha-cJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="555"/>
+        </scene>
+        <!--DisCover-->
+        <scene sceneID="UHH-Oo-bXx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DisCover" id="LaD-ah-JHm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ntX-yG-Oot"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yHs-XB-DDx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="1251"/>
+        </scene>
+        <!--Me-->
+        <scene sceneID="Oil-Fa-l6C">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Me" id="cq8-ct-UXC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5ep-bI-8Ft"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g4Y-Rw-eMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1566" y="1978"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_me" width="23" height="23"/>
+        <image name="tabbar_meHL" width="23" height="23"/>
+    </resources>
+</document>
