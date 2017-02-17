@@ -7,7 +7,7 @@ A elegant and WeuiStuff  sheetAlert for Wechat timeLine   微信朋友圈拍照�
 
 ## Featrue
 ![image](https://github.com/sishenyihuba/WechatSheetAlertDemo/blob/master/Images/WechatSheet.gif)
-
+***
 ## Useage
 It is very handy to use, just drag WechatSheetAlert.swift into your own project, user in as a common view! Code is like this:
 ```
@@ -37,12 +37,12 @@ func cameraDidTouch() {
     }
 ```
  In the code above,We want to show a menu sheet like Wechat does,Cool!
- - Create WechatSheetAlert using frame and titles
- - add click event for sheet menu
- - add WechatSheetAlert into a superview what ever u want
+- Create WechatSheetAlert using frame and titles
+- add click event for sheet menu
+- add WechatSheetAlert into a superview what ever u want
  
- ##Contribute
- We welcome any contributions. If u have any issue ,please let me know.
+## Contribute
+We welcome any contributions. If u have any issue ,please let me know.
  
- ##License
- Hero is available under the MIT license. See the LICENSE file for more info.
+## License
+Hero is available under the MIT license. See the LICENSE file for more info.
