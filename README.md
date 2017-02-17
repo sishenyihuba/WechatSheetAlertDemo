@@ -3,7 +3,7 @@ A elegant and WeuiStuff  sheetAlert for Wechat timeLine   微信朋友圈拍照�
 
 ![image](https://github.com/sishenyihuba/WechatSheetAlertDemo/blob/master/Images/WechatSheet.png)
 
-*WechatSheet* is a custom view for showing sheetAlert in Wechat. It is written by Swift3.
+**WechatSheet** is a custom view for showing sheetAlert in Wechat. It is written by Swift3.
 
 ## Featrue
 ![image](https://github.com/sishenyihuba/WechatSheetAlertDemo/blob/master/Images/WechatSheet.gif)
@@ -42,7 +42,7 @@ func cameraDidTouch() {
  - add WechatSheetAlert into a superview what ever u want
  
  ##Contribute
- We welcome any contributions
+ We welcome any contributions. If u have any issue ,please let me know.
  
  ##License
  Hero is available under the MIT license. See the LICENSE file for more info.
