@@ -45,4 +45,4 @@ func cameraDidTouch() {
 We welcome any contributions. If u have any issue ,please let me know.
  
 ## License
-Hero is available under the MIT license. See the LICENSE file for more info.
+Wechatsheet is available under the MIT license. See the LICENSE file for more info.
